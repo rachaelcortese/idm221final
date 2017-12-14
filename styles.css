@@ -1,0 +1,278 @@
+
+*{
+	box-sizing: border-box;
+}
+	
+
+body { 
+    font-size:16px; 
+    margin:0;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+.navbar ul {
+    background-image: url('blackmarble.jpg');
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    text-align:right;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+
+ 
+}
+
+
+.navbar li{
+	display: inline;
+
+
+}
+
+.navbar li a{
+    color: white;
+    /*margin-right:1.25em;*/
+    font-style:italic;
+    font-family: 'Crimson Text', serif;
+    font-size:1.25em;
+    padding: 10px;
+    text-decoration: none;
+    
+
+    
+}
+
+.navbar li a:hover {     
+    background: -webkit-linear-gradient(#f9f8b4, #ff8900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* is it possible to make a gold effect? */
+
+
+.topblock {
+    background-color: black;
+    background-size: contain;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin:6.25em 1.25em 0;
+    padding:20px;
+
+
+}
+
+.topblock:hover {
+    background-color: white;
+    border-color: black 1px;
+    background-size: contain;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    margin:6.25em 1.25em 0;
+    padding:20px;
+}
+
+
+.aboutme {
+	
+	color:black;
+	font-family:'Crimson Text', serif;
+    font-weight: lighter;
+	font-size: 2.5em;
+	margin:2.75em 1.25em 0;
+	text-align: left;
+	
+}
+
+.aboutmebody{
+    font-size: 0.750em;
+    font-family: 'Open Sans', sans-serif;
+    margin:2.75em 4.25em 0;;
+    text-align: justify;
+}
+
+.column {
+
+	float: left;
+    margin:0;
+    padding: 40px;
+    width: 50%;
+
+
+}
+
+.row {
+    align-items: flex-end;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+}
+
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+   
+}
+
+
+
+.column h2 {
+	font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+	
+
+    
+}
+
+.column h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.column p{
+    font-family: 'Crimson Text', serif;
+    font-size:1em;
+    text-align: justify; /**want this to be more of a box**/
+
+
+}
+
+
+
+.contactme {
+    color:black;
+    font-family:'Crimson Text', serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin:2.75em 1.25em 0;
+    text-align: left;
+    
+}
+
+.contactbody{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin:2.75em 4.25em 0;;
+}
+
+.contactbody a {
+    color:black;
+    text-decoration: none;
+
+}
+
+.contactbody a:hover {
+    background: -webkit-linear-gradient(#f9f8b4, #ff8900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mywork {
+    color:black;
+    font-family:'Crimson Text', serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin:2.75em 1.25em 0;
+    text-align: left;
+    z-index: 10;
+
+}
+
+
+.mywork h4 {
+    color:black;
+    font-family:'Crimson Text', serif;
+    font-size: .5em;
+    font-weight: lighter;
+    text-align: left;
+    z-index: 10;
+}
+
+.columnn {
+    
+    padding: 40px;
+    position: relative;
+    margin:0;
+
+
+}
+
+
+.columnn h4 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    /*width: 33.33%;*/
+    padding: 30px;
+    text-align:center;
+    
+}
+
+
+.columnn h4 a {
+    color:black;
+    text-decoration: none;
+    
+}
+
+
+
+
+/** contact form 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family:'Open Sans', sans-serif;
+}
+
+end of contact form**/
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url('blackmarble.jpg');
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    text-align: center;
+    padding:10px;
+
+}
+
+
